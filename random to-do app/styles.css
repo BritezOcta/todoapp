@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(10, 10, 10);
+    color: #d3d3d3;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    border: 1px solid #555;
+    text-align: center;
+
+}
+#taskInput{
+    background: transparent;
+    border: 1px solid #555;
+    color: #d3d3d3;
+    width: 70%;
+}
+
+#addTaskBtn{
+    background: transparent;
+    color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+}
